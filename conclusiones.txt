@@ -1,0 +1,23 @@
+CONCLUSIONES - PETSTORE API
+
+Se automatizó el flujo principal de la API pública Petstore
+utilizando Karate Framework.
+
+Se validaron correctamente los siguientes escenarios:
+
+- Crear mascota (POST)
+- Consultar mascota por ID (GET)
+- Actualizar nombre y estado a "sold" (PUT)
+- Consultar mascota por estado (GET)
+
+En cada caso se verificó:
+
+- Código de respuesta 200
+- Persistencia de datos
+- Coincidencia de valores (id, name, status)
+
+Los resultados fueron exitosos, demostrando que la API
+responde correctamente a las operaciones evaluadas.
+
+Karate permitió implementar un flujo claro, reutilizando
+variables y generando reportes automáticos en HTML.
